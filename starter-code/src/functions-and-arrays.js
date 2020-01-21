@@ -16,8 +16,7 @@ function findLongestWord(array) {
   }
   let longest;
   for (let words of array) {
-    //for (let i = 0; i < array.length; i++) {
-    if (typeof longest === 'undefined' || word.length > longest.length) {
+    if (typeof longest === 'undefined' || words.length > longest.length) {
       longest = words;
     }
   }
