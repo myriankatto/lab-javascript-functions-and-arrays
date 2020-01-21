@@ -2,7 +2,6 @@
 
 # LAB | JS Functions & Arrays
 
-
 ## Introduction
 
 Manipulating arrays in code is a very common operation. Whether you're creating a total for a shopping cart, grabbing only the first names out of a list of people, or moving a piece on a chessboard, you're probably going to be modifying or manipulating an array in some way.
@@ -222,6 +221,7 @@ const words = [
 What is the greatest product of four adjacent numbers? We consider adjacent any four numbers that are next to each other in horizontal, vertical or diagonal.
 
 For example, if we have a 5x5 Matrix like:
+
 ```bash
 [ 1,  2, 3, 4, 5]
 [ 1, 20, 3, 4, 5]
@@ -229,6 +229,7 @@ For example, if we have a 5x5 Matrix like:
 [ 1, 20, 3, 4, 5]
 [ 1,  4, 3, 4, 5]
 ```
+
 The greatest product will be the `20`x`20`x`20`x`4` = `32000`;
 
 Declare a function named `greatestProduct` to find it in the 20×20 grid below!
